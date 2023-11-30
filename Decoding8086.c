@@ -2,7 +2,7 @@
 
 
 
-
+/* Reg = 010 W = 1 -> reg_field_encoding[2][1] (i.e., "DX") */
 const char* decode_register[8][2] = {
     {"al","ax"},
     {"cl","cx"},
